@@ -4,7 +4,7 @@ A new mod for cookie clicker that gives you the worst possible luck in cookie cl
 
 ### <ins>INSTALLATION</ins>
 
-For steam, download the file as a zip, unzip the file and put the unzipped mod in your cookie clicker's local mod folder.
+For steam, download one of the releases as a zip, unzip the file and put the unzipped mod in your cookie clicker's local mod folder.
 
 For web, use the developer console and put `Game.LoadMod('https://officialjewel57.github.io/unluckycookies/main.js');` into the console and the mod should load.
 
