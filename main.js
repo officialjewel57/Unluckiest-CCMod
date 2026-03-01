@@ -3,12 +3,7 @@ Game.registerMod("harder_core",{
       Game.Notify("Unluckiest mod ever has loaded!", "why did i add the exclamation mark because this isnt an exciting mod :sob:", [16, 5]);
       Game.registerHook('logic', function() {
         Game.lumpCurrentType = 0;
-        for(let i = 0; i < 12; i++){
-          var me = Game.wrinklers[i];
-          me.type = 0;
-          me.suck = 1;
-        }
-          if(Game.elderWrath = 0){
+          if(Game.elderWrath === 0){
             Game.shimmerTypes['golden'].time = 0;
             if (Game.shimmers.length === 0) {
               if(Game.Has('Serendipity')){
@@ -31,7 +26,12 @@ Game.registerMod("harder_core",{
                 }
               }
             }
-          } else if(Game.elderWrath = 1){
+          } else {
+            for(let i = 0; i < 14; i++){
+              var me = Game.wrinklers[i];
+              me.type = 0;
+              me.suck = 1;
+            }
             Game.shimmerTypes['golden'].time = 0;
             if (Game.shimmers.length === 0) {
               if(Game.Has('Serendipity')){
@@ -65,5 +65,4 @@ Game.registerMod("harder_core",{
     load:function(str){
     },
 });
-
 
