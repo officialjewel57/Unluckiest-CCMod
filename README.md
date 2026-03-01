@@ -1,6 +1,14 @@
 # Unluckiest-CCMod
 
-A new mod for cookie clicker on steam (eventually I'll add a web port) that gives you the worst possible luck in cookie clicker. 
+A new mod for cookie clicker that gives you the worst possible luck in cookie clicker.
+
+### <ins>INSTALLATION</ins>
+
+For steam, download the file as a zip, unzip the file and put the unzipped mod in your cookie clicker's local mod folder.
+
+For web, use the developer console and put `Game.LoadMod('https://officialjewel57.github.io/unluckycookies/main.js');` into the console and the mod should load.
+
+<ins><b>You can tell if the mod loaded correctly since the mod would notify you that it loaded.</b></ins>
 
 ### List of unlucky changes (will change later):
 
